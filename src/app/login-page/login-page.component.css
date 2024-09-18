@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.logoFacens{
+    display: flex;
+    justify-content: center;
+
+    margin: 124px 0 75px;
+}
+
+.logoFacens img{
+    width: 180px;
+    height: 78px;
+}
+
+.loginForms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.emailField, .passwordField {
+    width: 429px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.emailField label, .passwordField label {
+    padding-bottom: 10px;
+}
+
+.emailField input, .passwordField input{
+    border: none;
+    border-radius: 8px;
+    background-color: #EEEEEE;
+    padding: 14px 0 14px 20px;
+    color: #555555;
+    font-size: 14px;
+}
+
+.forgotPassword{
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+    margin-bottom:37px;
+    color: #1E2772;
+}
+
+.forgotPassword a{
+    color: #1E2772;
+}
+
+
+.btnEnter{
+    width: 429px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1E2772;
+    color: #ffffff;
+    padding: 13px 189px;
+    font-weight: 600;
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btnRegister{
+    width: 429px;
+    height: 50px;
+    border: 1px solid #1E2772;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #1E2772;
+    padding: 13px 166px;
+    font-weight: 600;
+}
+
+.divisor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 37px 0px;
+}
+
+.divisor span{
+    color: #C2C2C2;
+    padding: 0px 20px;
+}
+
+.line{
+    border: 1px solid #C2C2C2;
+    width: 184px;
+    height: 0px;
+}
+
+.emailField, .passwordField{
+    position: relative;
+    width: 100%;
+}
+
+.emailImg, .passwordImg{
+    position: absolute;
+    right: 0;
+    top: calc(46% - 5px);
+}
