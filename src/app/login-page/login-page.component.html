@@ -1,38 +1,43 @@
 <main>
-    <div class="logoFacens">
-        <img src="/assets/logo-liga.png" alt="Logo do LIGA Facens">
-    </div>
-    <div class="loginForms">
-        <form>
-            <div class="emailField">
-                <img class="emailImg" src="/assets/emailIcon.svg" alt="Ícone de carta">
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="info@provistechnologies.com" required>
-            </div>
-            
-            <div class="passwordField">
-                <img class="passwordImg" src="/assets/lockIcon.svg" alt="Ícone de cadeado"> 
-                <label for="password">Senha:</label>
-                <input type="password" id="password" placeholder="Digite sua senha" required>
-            </div>
-
-            <div class="forgotPassword">
-                <a href="#">Esqueceu sua senha?</a>
-            </div>
-            
-            <div>
-                <button class="btnEnter" type="submit">Entrar</button>
-            </div>
-            
-            <div class="divisor">
-                <div class="line"></div>
-                <span>OU</span>
-                <div class="line"></div>
-            </div>
-            
-            <div>
-                <button class="btnRegister" type="submit">Registre-se</button>
-            </div>
-        </form>
-    </div>
+    <section class="bannerArea">
+        <img src="/assets/bg-login.png" alt="Banner de login">
+    </section>
+    <section class="loginArea">
+        <div class="logoFacens">
+            <img src="/assets/logo-liga.png" alt="Logo do LIGA Facens">
+        </div>
+        <div class="loginForms">
+            <form>
+                <div class="emailField">
+                    <img class="emailImg" src="/assets/emailIcon.svg" alt="Ícone de carta">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="info@provistechnologies.com" required>
+                </div>
+                
+                <div class="passwordField">
+                    <img class="passwordImg" src="/assets/lockIcon.svg" alt="Ícone de cadeado"> 
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                </div>
+    
+                <div class="forgotPassword">
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+                
+                <div>
+                    <app-button label="Entrar"></app-button>
+                </div>
+                
+                <div class="divisor">
+                    <div class="line"></div>
+                    <span>OU</span>
+                    <div class="line"></div>
+                </div>
+                
+                <div>
+                    <button class="btnRegister" type="submit">Registre-se</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </main>

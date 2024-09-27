@@ -1,19 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-}
 
 .logoFacens{
     display: flex;
     justify-content: center;
-
-    margin: 124px 0 75px;
+    margin: 12.4rem 0 7.5rem;
 }
 
 .logoFacens img{
-    width: 180px;
-    height: 78px;
+    width: 18rem;
+    height: 7.8rem;
 }
 
 .loginForms{
@@ -24,30 +18,31 @@
 }
 
 .emailField, .passwordField {
-    width: 429px;
+    width: 42.9rem;
     display: flex;
     flex-direction: column;
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
 }
 
 .emailField label, .passwordField label {
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
 }
 
 .emailField input, .passwordField input{
     border: none;
-    border-radius: 8px;
+    border-radius: 0.8rem;
     background-color: #EEEEEE;
-    padding: 14px 0 14px 20px;
+    padding: 1.4rem 0 1.4rem 2rem;
     color: #555555;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .forgotPassword{
     display: flex;
     justify-content: end;
-    font-size: 14px;
-    margin-bottom:37px;
+    font-size: 1.4rem;
+    margin-bottom: 3.7rem;
     color: #1E2772;
 }
 
@@ -55,46 +50,44 @@
     color: #1E2772;
 }
 
-
-.btnEnter{
-    width: 429px;
-    height: 50px;
-    border: none;
-    border-radius: 8px;
-    background-color: #1E2772;
-    color: #ffffff;
-    padding: 13px 189px;
-    font-weight: 600;
-    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
 .btnRegister{
-    width: 429px;
-    height: 50px;
-    border: 1px solid #1E2772;
-    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42.9rem;
+    height: 5rem;
+
+    border: 0.1rem solid #1E2772;
+    border-radius: 0.8rem;
+
     background-color: #ffffff;
     color: #1E2772;
-    padding: 13px 166px;
+
+    padding: 1.3rem 16.6rem;
     font-weight: 600;
+    font-size: 1.6rem;
+    
+    cursor: pointer;
 }
 
 .divisor{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 37px 0px;
+    margin: 3.7rem 0rem;
 }
 
 .divisor span{
     color: #C2C2C2;
-    padding: 0px 20px;
+    padding: 0rem 2rem;
+    font-size: 1.4rem;
 }
 
 .line{
-    border: 1px solid #C2C2C2;
-    width: 184px;
-    height: 0px;
+    border: 0.1rem solid #C2C2C2;
+    width: 18.4rem;
+    height: 0rem;
 }
 
 .emailField, .passwordField{
@@ -105,5 +98,24 @@
 .emailImg, .passwordImg{
     position: absolute;
     right: 0;
-    top: calc(46% - 5px);
+    top: calc(46% - 0.5rem);
+}
+
+@media (min-width: 768px){
+    main{
+        display: flex;
+    }
+
+    .bannerArea{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginArea{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
