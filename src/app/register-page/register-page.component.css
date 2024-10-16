@@ -1,0 +1,88 @@
+.sign-up{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.logoLiga{
+    display: flex;
+    justify-content: center;
+    margin: 7.5rem 0 3.6rem;
+}
+
+.logoLiga img{
+    width: 18rem;
+    height: 7.8rem;
+}
+
+.formArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputArea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 42.9rem;
+    margin-bottom: 2.5rem;
+}
+
+.inputArea label {
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+    color: #555555;
+}
+
+.inputArea input{
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #EEEEEE;
+    padding: 1.4rem 0 1.4rem 2rem;
+    color: #555555;
+    font-size: 1.4rem;
+}
+
+.btnConcluir{
+    margin-top: 7.5rem;
+    margin-bottom: 5.8rem;
+}
+
+/* remove setinhas de incremento ou redução dos campos de numero */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.bannerArea {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    main{
+        display: flex;
+        justify-content: space-between;
+        background-color: #F4F4F4
+    }
+
+    .bannerArea{
+        display: flex;
+    }
+
+    .bannerArea img{
+        width: 100%;
+        max-width: 60rem;
+    }
+
+    .formArea{
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 7.4rem;
+    }
+
+    .formColuna1, .formColuna2{
+        width: 100%;
+        max-width: 33.6rem;
+    }
+}
