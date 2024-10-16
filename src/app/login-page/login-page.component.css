@@ -2,7 +2,6 @@
     display: none;
 }
 
-
 .logoFacens{
     display: flex;
     justify-content: center;
@@ -117,13 +116,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #F4F4F4;
+        background-color: #f4f4f4;
     }
 
     .bannerArea img{
         height: 100vh;
-        width: 60%;
-        object-fit: cover; /* Faz com que a imagem cubra o espaço */
+        width: 80%;
+        object-fit: contain;
     }
 
     .loginForms {
