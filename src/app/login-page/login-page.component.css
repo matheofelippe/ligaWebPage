@@ -1,3 +1,7 @@
+.bannerArea{
+    display: none;
+}
+
 
 .logoFacens{
     display: flex;
@@ -101,21 +105,58 @@
     top: calc(46% - 0.5rem);
 }
 
-@media (min-width: 768px){
-    main{
+@media (min-width: 1024px) {
+    main {
         display: flex;
+        height: 100vh;
+        justify-content: center
     }
 
-    .bannerArea{
+    .bannerArea {
+        flex: 1;  
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #F4F4F4;
     }
 
-    .loginArea{
+    .bannerArea img{
+        height: 100vh;
+        width: 60%;
+        object-fit: cover; /* Faz com que a imagem cubra o espaço */
+    }
+
+    .loginForms {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0 2.7rem 0;
+        width: 100%;
+    }
+    
+    .loginArea{
+        box-shadow: -28px 0px 50px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .emailField, .passwordField {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2.4rem;
+    }
+
+    .btnRegister {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+
+    .divisor {
+        margin: 2rem 0;
+    }
+
+    .divisor .line {
+        width: 100%;
     }
 }
